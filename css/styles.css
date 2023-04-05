@@ -139,10 +139,12 @@ margin: 0 auto 48px;
 }
 
 .hero {
-background: var(--title-color);
 padding-top: 188px;
 padding-bottom: 188px;
 text-align: center;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+background-size: cover;
+background-color: var(--title-color);
 }
 
 .hero-btn {
@@ -296,6 +298,17 @@ text-align: center;
 letter-spacing: 0.02em;
 color:  var(--main-color-text);
 margin-top: 8px;
+}
+
+
+.social-list-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: var(--actient-color-);
 }
 
 /* ================== Подвал "footer" ================  */
