@@ -348,7 +348,7 @@ gap: 24px;
 display: flex;
 }
 
-.customers-title{
+.customers-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -389,9 +389,10 @@ border-color: var(--hover-color);
 color: var(--hover-color);
 }
 
-.Customers-link:hover .customers-icon {fill: var(--hover-color);}
-.Customers-link:focus .customers-icon {fill: var(--hover-color);}
+.customers-link:hover .customers-icon {fill: var(--hover-color);}
+.customers-link:focus .customers-icon {fill: var(--hover-color);}
 
+.customers-icon {fill: red;}
 
 /* ================== Подвал "footer" ================  */
 
