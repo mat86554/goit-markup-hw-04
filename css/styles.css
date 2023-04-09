@@ -362,7 +362,7 @@ margin-bottom: 72px;
 }
 
 .customers-item {
-width: calc((100% - 120) / 6);
+width: calc((100% - 120px) / 6);
 }
 
 .customers-item:not(:last-child) {
